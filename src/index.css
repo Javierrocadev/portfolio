@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mustard Bold";
+  src: url("../public/fonts/Mustard\ Bold.otf");
+}
+
+@font-face {
+  font-family: "Mustard Medium";
+  src: url("../public/fonts/Mustard\ Medium.otf");
+}
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("../public/fonts/Marcellus-Regular.ttf");
+}
+
+.MyGradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0)
+  );
+}
