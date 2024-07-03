@@ -65,7 +65,7 @@ function App() {
             </div>
           </header>
           <main className="flex flex-col  text-primary my-6">
-            <section className="-mx-[260px] w-screen relative   bg-secondary flex justify-center items-center overflow-x-hidden">
+            <section className="-mx-64 w-screen relative   bg-secondary flex justify-center items-center overflow-x-hidden">
               <Marquee />
             </section>
             <section className="my-24">
