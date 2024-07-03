@@ -44,7 +44,7 @@ function App() {
             </div>
           </nav>
           <header className="flex flex-col items-center text-primary my-64">
-            <h1 className="font-mustard text-[140px] text-center ">
+            <h1 className="font-mustardMedium text-[140px] text-center ">
               Javier Roca
             </h1>
             <p className="max-w-[620px] text-center mb-8 font-marcellus">
